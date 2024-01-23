@@ -1,0 +1,18 @@
+set1=set()
+set2=set()
+print("enter the set1 state")
+for i in range(2):
+    set=input("enter values")
+    set1.add(set)
+print("enter the set2 state")
+for i in range(2):
+    set=input("enter values")
+    set2.add(set)
+print(set1)
+print(set2)
+z=set1.symmetric_difference(set2)
+print(z)
+a=set1.difference(set2)
+print(a)
+b=set1.union(set2)
+print(b)
